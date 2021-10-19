@@ -11,7 +11,6 @@ public class StudentSearch {
 
         return false;
     }
-    //sdkjcgisdcsdcjnskdjcbskdjckjdfvkjdbvksdjbv
     public Student findOne(ArrayList<Student> students, String name) throws Exception {
     for (Student student: students)
     if (student.getName().equals(name))
